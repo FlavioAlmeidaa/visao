@@ -12,7 +12,7 @@ Este projeto é um aplicativo em React que utiliza o serviço **Custom Vision** 
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/custom-vision-react.git
+   git clone https://github.com/FlavioAlmeidaa/visao.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
