@@ -25,7 +25,7 @@ Este projeto é um aplicativo em React que utiliza o serviço **Custom Vision** 
 
 ## 🔑 Configuração
 
-1. Crie um arquivo `.env` na raiz do projeto e adicione suas chaves da **Azure Custom Vision API**:
+1. Modifique o arquivo `VehicleClassifier.jsx` na pasta src e adicione suas chaves da **Azure Custom Vision API**:
    ```env
    PREDICTION_ENDPOINT= "sua-url-da-api"
    PREDICTION_KEY= "sua-chave-de-predição"
@@ -35,7 +35,7 @@ Este projeto é um aplicativo em React que utiliza o serviço **Custom Vision** 
 
 1. Inicie o servidor de desenvolvimento:
    ```sh
-   npm starun dev
+   npm run dev
    ```
 2. Acesse `http://localhost:5173/` no seu navegador.
 3. Faça o upload de uma imagem para classificá-la com o modelo treinado no **Custom Vision**.
